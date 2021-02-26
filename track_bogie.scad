@@ -15,6 +15,11 @@ difference(){
 cylinder(d=16,h=8);
 translate([0,0,-1])cylinder(d=4,h=10);
 }
+translate([42,52,0])
+difference(){
+cylinder(d=16,h=8);
+translate([0,0,-1])cylinder(d=4,h=10);
+}
 
 translate([3,-5,0])cube([102,10,4]);
 
