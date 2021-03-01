@@ -3,7 +3,7 @@ difference(){
 translate([-25,45,0])
 cube([140,52,15]);
 
-translate([0,0,5])rotate([0,0,1.5])
+translate([0,0,5])rotate([0,0,3.7])
 minkowski($fn=30){
     bogie();
     cylinder(r=1,h=0.001);
