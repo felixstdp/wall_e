@@ -1,7 +1,6 @@
 difference(){
     
-translate([-25,45,0])
-cube([140,60,15]);
+translate([-25,45,0])cube([140,60,15]);
 
 translate([0,0,5])rotate([0,0,3.71])
 minkowski($fn=30){
@@ -25,6 +24,9 @@ rotate([-90,0,0])cylinder(d=2.5,h=12);
 
 }
 
+translate([-25,45,0])cube([15,60,15]);
+translate([-25,90,0])cube([95,15,15]);
+
 module bogie(){
 
 scale([1,1,2.5]){
@@ -33,7 +35,7 @@ $fn=50;
 translate([90,83,0])
 union(){
 cylinder(d=16,h=8);
-translate([0,0,-6])cylinder(d=4,h=10);
+translate([0,0,-6])cylinder(d=8,h=10);
 }
 
 translate([42,52,0])
