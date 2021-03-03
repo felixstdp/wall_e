@@ -58,10 +58,10 @@ translate([0,0,-6])cylinder(d=8,h=10);
 }
 
 rotate([0,0,42.6])
-translate([3,-5,0])cube([116,10,4]);
+translate([3,-5.5,0])cube([116,11,4]);
 
 translate([108,0,0])rotate([0,0,101.9])
-translate([3,-5,0])cube([78,10,4]);
+translate([3,-5.5,0])cube([78,11,4]);
 }
 
 }
