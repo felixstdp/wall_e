@@ -1,4 +1,4 @@
-$fn=50;
+$fn=90;
 
 difference(){
 cylinder(d=16,h=20);
@@ -8,8 +8,8 @@ translate([90,83,0])
 difference(){
 cylinder(d=20,h=20);
 translate([0,0,-1])cylinder(d=5,h=30);
-translate([0,0,16])cylinder(d=11,h=10);
-cylinder(d=11,h=4); 
+translate([0,0,16])cylinder(d=11.2,h=10);
+cylinder(d=11.2,h=4); 
 }
 translate([108,0,0])
 difference(){
