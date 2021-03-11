@@ -2,7 +2,7 @@ difference(){
     
 translate([-25,45,0])cube([140,60,15]);
 
-translate([0,0,5])rotate([0,0,3.71])
+translate([0,0,5.001])rotate([0,0,3.71])
 bogie();
 
 translate([65,68,-1])cylinder(d=3.2,h=12);
@@ -31,8 +31,6 @@ rotate([0,90,0])cylinder(d=2.5,h=12);
 }
 
 module bogie(){
-
-scale([1,1,1]){
 $fn=50;
 
 translate([90,83,0])
@@ -48,10 +46,8 @@ translate([0,0,-6])cylinder(d=10,h=30);
 }
 
 rotate([0,0,42.6])
-translate([3,-6.5,0])cube([116,13,10]);
+translate([3,-5.5,0])cube([116,11,10]);
 
 translate([108,0,0])rotate([0,0,101.9])
-translate([3,-6.5,0])cube([78,13,10]);
-}
-
+translate([3,-5.5,0])cube([78,11,10]);
 }
