@@ -1,3 +1,5 @@
+// escala 140:465
+
 front();
 translate([0,0,-150])back();
 
