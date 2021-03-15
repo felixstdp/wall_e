@@ -8,7 +8,7 @@ translate([90,83,0])
 difference(){
 cylinder(d=20,h=20);
 translate([0,0,-1])cylinder(d=5,h=30);
-translate([0,0,16])cylinder(d=11.2,h=10);
+translate([0,0,16])cylinder(d=11.2,h=10); // insert for a 5x11x4 mm ball bearing
 cylinder(d=11.2,h=4); 
 }
 translate([108,0,0])
