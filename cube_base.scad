@@ -26,15 +26,6 @@ translate([110,40,7.5])
 rotate([-90,0,0])cylinder(d=3.2,h=12);
 }
 
-translate([0,50,-54])
-rotate([90,0,0])cylinder(d=3.5,h=10);
-
-translate([40,50,-54])
-rotate([90,0,0])cylinder(d=3.5,h=10);
-
-translate([80,50,-54])
-rotate([90,0,0])cylinder(d=3.5,h=10);
-
 }
 
 module bogie(){
