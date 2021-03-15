@@ -4,7 +4,7 @@ translate([0,0,40])front();
 back();
 }
 translate([0,0,3])
-hull(){
+hull(){ //vaciado
 translate([24.5,8,0])cylinder(d=26,h=200);
 translate([47,1.5,0])cylinder(d=29.5,h=200);
 translate([52,-8,0])cylinder(d=13,h=200);
@@ -17,23 +17,20 @@ scale(140/465)
 {
 $fn=120;
 translate([0,0,40])
-difference(){
 hull(){
 difference(){
-translate([159,-5,0])cylinder(d=142,h=20);
+translate([159,-5,0])cylinder(d=140,h=20);
 translate([0,-15,0])cube([500,500,500]);
 }
-translate([170,30,0])cylinder(d=92,h=20);
-translate([200.75,-12,0])cylinder(d=59,h=20);
+translate([170,30,0])cylinder(d=90,h=20);
+translate([200.75,-12,0])cylinder(d=57,h=20);
 
 difference(){
-translate([140,55,0])cylinder(d=252,h=20);
+translate([140,55,0])cylinder(d=250,h=20);
 translate([140,-140,0])cube([500,500,500]);
 rotate([0,0,-7])
-translate([0,95,0])cube([500,500,500]);
+translate([0,94,0])cube([500,500,500]);
 }   
-}
-//translate([95,17,-10])cylinder(d=80,h=220);
 }
 }
 }
