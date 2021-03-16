@@ -1,6 +1,6 @@
 difference(){
-cube([136,140,15]);
-translate([2,2,2])cube([132,136,17]);
+translate([2,0,0])cube([132,140,15]);
+translate([4,2,2])cube([128,136,17]);
 translate([15,5,-1])cube([106,130,17]);
 translate([20,0,8])
 rotate([-90,0,0])cylinder(d=2.5,h=200);
