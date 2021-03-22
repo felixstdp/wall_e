@@ -17,9 +17,20 @@ rotate([-90,0,0])cylinder(d=2.5,h=12);
 translate([110,44,7.5])
 rotate([-90,0,0])cylinder(d=2.5,h=12);
 
+translate([-10,150,7.5])
+rotate([-90,0,0])cylinder(d=2.5,h=100);
+translate([45,150,7.5])
+rotate([-90,0,0])cylinder(d=2.5,h=12);
+translate([100,150,7.5])
+rotate([-90,0,0])cylinder(d=2.5,h=12);
+
 translate([-25,60,7.5])
 rotate([0,90,0])cylinder(d=2.5,h=12);
 translate([-25,90,7.5])
+rotate([0,90,0])cylinder(d=2.5,h=12);
+translate([-25,120,7.5])
+rotate([0,90,0])cylinder(d=2.5,h=12);
+translate([-25,150,7.5])
 rotate([0,90,0])cylinder(d=2.5,h=12);
 
 translate([129,0,0]){
@@ -27,7 +38,12 @@ translate([-25,60,7.5])
 rotate([0,90,0])cylinder(d=2.5,h=12);
 translate([-25,90,7.5])
 rotate([0,90,0])cylinder(d=2.5,h=12);
-}
+translate([-25,120,7.5])
+rotate([0,90,0])cylinder(d=2.5,h=12);
+translate([-25,150,7.5])
+rotate([0,90,0])cylinder(d=2.5,h=12);
+    }
+    
 translate([-25,105,0]){
 translate([5,20,12])cube([120,20,8]);
 translate([5,-30,12])cube([20,50,8]);
