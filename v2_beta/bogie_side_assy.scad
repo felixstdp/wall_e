@@ -29,9 +29,9 @@ rotate([0,90,0])cylinder(d=2.5,h=12);
 translate([-25,90,7.5])
 rotate([0,90,0])cylinder(d=2.5,h=12);
 translate([-25,120,7.5])
-rotate([0,90,0])cylinder(d=2.5,h=12);
+rotate([0,90,0])cylinder(d=2.5,h=16);
 translate([-25,150,7.5])
-rotate([0,90,0])cylinder(d=2.5,h=12);
+rotate([0,90,0])cylinder(d=2.5,h=20);
 
 translate([129,0,0]){
 translate([-25,60,7.5])
@@ -45,11 +45,14 @@ rotate([0,90,0])cylinder(d=2.5,h=12);
     }
     
 translate([-25,105,0]){
-translate([5,20,12])cube([120,20,8]);
-translate([5,-30,12])cube([20,50,8]);
+translate([5,20,11.5])cube([120,20,8]);
+translate([5,-30,11.5])cube([20,50,8]);
 translate([12.5,-25,0])cube([5,55,18]);
 translate([12.5,27.5,0])cube([110,5,18]);
 }
+
+translate([-25,105,0])cube([5,55,40]);
+
 }
 
 module bogie(){
