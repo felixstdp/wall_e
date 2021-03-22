@@ -1,0 +1,10 @@
+$fn=24;
+difference(){
+cube([142,55,10]);
+translate([0,2,3])cube([30,55,15]);
+translate([112,2,3])cube([30,55,15]);
+translate([7,15,0])cylinder(d=3.2,h=20);
+translate([7,45,0])cylinder(d=3.2,h=20);
+translate([142-7,15,0])cylinder(d=3.2,h=20);
+translate([142-7,45,0])cylinder(d=3.2,h=20);
+}
