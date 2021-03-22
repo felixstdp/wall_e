@@ -1,8 +1,8 @@
 difference(){
 hull(){
 minkowski($fn=30){
-cube(15,center=true);
-cylinder(d=5,h=0.001);
+cube(10,center=true);
+cylinder(d=10,h=5,center=true);
 }
 translate([10,5,0])
 cylinder(d=10,h=15,center=true,$fn=30);
