@@ -13,12 +13,12 @@ cylinder(d=4,h=19,center=true,$fn=30);
 difference(){
 hull(){
 translate([30,8,0])
-cylinder(d=4,h=15,center=true,$fn=30);
+cylinder(d=6,h=15,center=true,$fn=30);
 translate([10,5,0])
 cylinder(d=10,h=15,center=true,$fn=30);
 }
 translate([30,8,0])
 cylinder(d=2,h=15,center=true,$fn=30);
 translate([30,8,0])
-cylinder(d=6,h=10,center=true,$fn=30);
+cylinder(d=8,h=10,center=true,$fn=30);
 }
