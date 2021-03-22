@@ -30,15 +30,11 @@ rotate([0,90,0])cylinder(d=2.5,h=12);
 }
 translate([-25,105,0]){
 translate([5,20,12])cube([120,20,8]);
-translate([5,10,12])cube([20,20,8]);
-translate([12.5,20,0])cube([5,10,18]);
+translate([5,-30,12])cube([20,50,8]);
+translate([12.5,-25,0])cube([5,55,18]);
 translate([12.5,27.5,0])cube([110,5,18]);
 }
 }
-
-$fn=24;
-
-
 
 module bogie(){
 $fn=50;
