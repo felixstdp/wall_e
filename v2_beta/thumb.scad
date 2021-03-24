@@ -11,8 +11,8 @@ translate([-9,-20,0])cylinder(d=6,h=14);
 }
 }
 cylinder(d=4,h=22);
-translate([0,0,11])cylinder(d=22,h=14);
-cylinder(d=22,h=3);
+translate([0,0,10.75])cylinder(d=22,h=14);
+cylinder(d=22,h=3.25);
 }
 
 hull(){
