@@ -5,7 +5,7 @@ union(){
 hull(){
 cylinder(d=20,h=22);
 translate([5,-8,0])
-cylinder(d=10,h=22);
+cylinder(d=9,h=22);
 }
 
 hull(){
@@ -25,5 +25,5 @@ cylinder(d=3,h=22);
 }
 
 cylinder(d=4,h=22);
-translate([0,0,8])cylinder(d=22,h=20);
+translate([0,0,8])cylinder(d=22.5,h=20);
 }
