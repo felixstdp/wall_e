@@ -1,7 +1,7 @@
 translate([0,0,-8])hand();
 scale([1,1,-1])translate([0,0,-24])hand();
 translate([0,0,1])rotate([0,0,-30])thumb();
-translate([0,0,-1.5])rotate([0,0,90])assy();
+translate([0,0,-1.5])rotate([0,0,90])link();
 
 
 module hand(){
@@ -64,7 +64,7 @@ translate([-6,-37,0])cylinder(d=3,h=14);
 }
 }
 
-module assy(){
+module link(){
     $fn=60;
 
 difference(){
@@ -75,7 +75,7 @@ translate([0,-8,0])cube([16,16,19]);
 translate([0,0,5.5])cylinder(d=16,h=8);
 translate([-4,-8,5.5])cube([16,16,8]);
 cylinder(d=4,h=20);
-translate([0,0,8])rotate([0,90,0])
+translate([0,0,9.5])rotate([0,90,0])
 cylinder(d=3,h=20);
 }
 }
