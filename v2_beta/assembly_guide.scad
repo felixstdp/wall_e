@@ -1,13 +1,13 @@
-// start here to see the assembly
-
 side_panel();
-color("Silver")translate([0,0,5.001])rotate([0,0,3.71])bogie();
+color("Silver")translate([0,0,5.001])
+rotate([0,0,3.71])track_bogie();
 color("Silver")translate([-25,105,12])side_atrezzo();
 translate([-25,40,-127])rotate([0,-90,0])
 lower_front();
 translate([0,40,-2])rotate([-90,0,0])cube_base();
 color("Silver")translate([-20,105,-127])rotate([0,-90,0])
 upper_front();
+color("Silver")translate([86,88,18])traction_wheel();
 
 module side_panel(){
 difference(){
@@ -92,7 +92,7 @@ translate([3,-5.5,0])cube([78,11,10]);
 
 
 
-module bogie(){
+module track_bogie(){
     
     
 $fn=90;
@@ -127,6 +127,7 @@ translate([3,-5,0])cube([113,10,10]);
 translate([108,0,0])rotate([0,0,101.9])
 translate([3,-5,0])cube([76,10,10]);
 }
+
 
 
 module side_atrezzo(){
@@ -215,5 +216,27 @@ translate([7,15,0])cylinder(d=3.2,h=20);
 translate([7,45,0])cylinder(d=3.2,h=20);
 translate([142-7,15,0])cylinder(d=3.2,h=20);
 translate([142-7,45,0])cylinder(d=3.2,h=20);
+}
+}
+
+
+module traction_wheel(){
+    $fn=180;
+
+rotate_extrude(angle = 360, convexity = 2) {
+translate([14,0])  
+polygon(points = [ [1,0],[8,0],[8,2],[4,2],[6,15],[2,17.5],[2,18.5],[6,21],[4,34],[8,34],[8,36],[1,36] ]);
+}
+
+difference(){
+union(){
+translate([0,0,13])cylinder(r=15.5,h=20);
+for(i=[0:360/11:360]){
+rotate([0,0,i])
+translate([4,0,15])cylinder(d=32,h=6,$fn=3);
+}
+}
+cylinder(d=5.2,h=100);
+translate([0,0,12.9])cylinder(d=9,h=3,$fn=6);
 }
 }
