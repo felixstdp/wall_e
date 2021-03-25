@@ -3,7 +3,7 @@ $fn=24;
 translate([0,0,-41])rotate([90,0,0])
 difference(){
 
-translate([-25,41,-125])cube([140,4,142]);
+translate([-25,41,-125])cube([140,5,142]);
 
 translate([0,0,7])rotate([0,0,3.71])
 bogie();
