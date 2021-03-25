@@ -1,3 +1,5 @@
+// not to be printed. only to figure out the assembly
+
 side_panel();
 color("Silver")translate([0,0,5.001])
 rotate([0,0,3.71])track_bogie();
