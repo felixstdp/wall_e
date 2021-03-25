@@ -1,5 +1,9 @@
 difference(){
-cube([140,148,5]);
+cube([142,150,5]);
 translate([14.5,14.5,3])cube([111,119,3.5]);
-translate([20,20,0])cube([100,108,5]);    
+translate([20,20,0])cube([100,108,5]);
+translate([7,20,0])cylinder(d=3.2,h=10);    
+translate([7,130,0])cylinder(d=3.2,h=10);    
+translate([142-7,20,0])cylinder(d=3.2,h=10);    
+translate([142-7,130,0])cylinder(d=3.2,h=10);    
 }
