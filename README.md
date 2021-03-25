@@ -1,5 +1,5 @@
 # wall_e
-OpenSCAD files a scale model for Wall.E
+OpenSCAD files for a scale model for Wall.E
 
 ![alt text](https://github.com/felixstdp/wall_e/blob/main/wall_e.jpg)
 
