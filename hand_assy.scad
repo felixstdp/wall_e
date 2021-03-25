@@ -1,7 +1,9 @@
+color("Silver"){
 translate([0,0,-8])hand();
 scale([1,1,-1])translate([0,0,-24])hand();
 translate([0,0,1])rotate([0,0,-30])thumb();
 translate([0,0,-1.5])rotate([0,0,90])link();
+}
 
 
 module hand(){
