@@ -1,7 +1,12 @@
+$fn=30;
 difference(){
 cube([142,150,5]);
 translate([14.5,14.5,3])cube([111,119,3.5]);
-translate([20,20,0])cube([100,108,5]);
+translate([30,30,0])
+minkowski(){
+    cube([80,88,5]);
+    cylinder(d=20,h=0.001);
+}
 translate([7,20,0])cylinder(d=3.2,h=10);    
 translate([7,130,0])cylinder(d=3.2,h=10);    
 translate([142-7,20,0])cylinder(d=3.2,h=10);    
