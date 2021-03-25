@@ -1,3 +1,5 @@
+// not to be printed. only to figure out the assembly
+
 color("Silver"){
 translate([0,0,-8])hand();
 scale([1,1,-1])translate([0,0,-24])hand();
