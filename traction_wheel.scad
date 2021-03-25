@@ -1,7 +1,7 @@
 $fn=180;
 
 rotate_extrude(angle = 360, convexity = 2) {
-translate([22,0])  // [29,0] para la rueda grande, [22,0] para la rueda mediana
+translate([14,0])  
 polygon(points = [ [1,0],[8,0],[8,2],[4,2],[6,15],[2,17.5],[2,18.5],[6,21],[4,34],[8,34],[8,36],[1,36] ]);
 }
 
