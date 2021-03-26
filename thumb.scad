@@ -19,4 +19,3 @@ hull(){
 translate([-9,-20,0])cylinder(d=6,h=14);
 translate([-6,-37,0])cylinder(d=3,h=14);
 }
-}
